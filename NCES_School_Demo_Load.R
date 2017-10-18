@@ -19,9 +19,7 @@ library(magrittr)
 # library(RecordLinkage)
 
 ###### 1. Load Data ######
-## Note that the Header & Footer Schmutz must be removed either by hand, or with Bash Script
-### I've tried everywhichwaytoSunday to get the data to ignore that crap, but readr just can't
-### help but get all tangled up in its silliness.
+# TODO Load new variant dropping header sections
 
 path <- "/Users/Koyot/Documents/NCES_datastore/" # PC
 path = ("/Users/jensleerssen/Google Drive/NCES_datastore_gdrive/") # mac
