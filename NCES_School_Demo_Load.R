@@ -3,8 +3,7 @@
 # Date:  Wed Jun 07 16:22:21 2017 
  
 # Desc: Clean Up the NCES Demographic Data
-# Desc: Pulling just numbers and NA'ing all their NA symbols into NA's
-# Desc: 
+# Desc: Pulling just numbers and converting all their NA symbols into NA's
 # Desc: 
 
 
@@ -19,6 +18,8 @@ library(magrittr)
 # library(RecordLinkage)
 
 ###### 1. Load Data ######
+
+# from https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
 # TODO Load new variant dropping header sections
 
 path <- "/Users/Koyot/Documents/NCES_datastore/" # PC
